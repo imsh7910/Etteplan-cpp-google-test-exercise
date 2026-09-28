@@ -45,3 +45,11 @@ En liten övning i testdesign och automatiserad testkörning. Funktionen godkän
 - Git-commit, push och CI-resultat i GitHub Actions
 
 Använd bara ett repository som du själv äger eller har tillstånd att ändra. Den här övningen är fristående och innehåller inga riktiga produkt- eller kunddata.
+
+[![C++ / Google Test](https://github.com/imsh7910/Etteplan-cpp-google-test-exercise/actions/workflows/cpp-tests.yml/badge.svg)](https://github.com/imsh7910/Etteplan-cpp-google-test-exercise/actions/workflows/cpp-tests.yml)
+[![Postman API-tester](https://github.com/imsh7910/Etteplan-cpp-google-test-exercise/actions/workflows/postman.yml/badge.svg)](https://github.com/imsh7910/Etteplan-cpp-google-test-exercise/actions/workflows/postman.yml)
+
+## CI
+
+- **C++ / Google Test**: bygger med CMake och kör enhetstester vid varje push och PR.
+- **Postman API-tester**: kör Postman-collectionen med Newman, separat från enhetstesterna.
